@@ -53,16 +53,25 @@ Watched a short tutorial and followed the steps carefully
  45 minutes
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [ March 28, 2026, 11:40 PM ]
+
 **What I did**: 
+Ran the project and understood how the scheduler works
 
 **Details**: 
+- Compiled the Java code
+- Ran the simulation
+- Observed how processes move in the ready queue
+- Understood Round Robin scheduling logic
 
 **Challenges**: 
+Had some confusion understanding how Thread and Process are connected
 
 **Solution**: 
+Reviewed the relationship between Thread and Runnable in Java and re-read the code
 
 **Time spent**: 
+ 2 hours
 
 ---
 
