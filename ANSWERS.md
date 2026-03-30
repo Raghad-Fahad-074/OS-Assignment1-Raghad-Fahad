@@ -90,10 +90,10 @@ It is suitable because it offers:
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. Difference between threads and processes and how memory sharing works
+2. How Round-Robin scheduling uses time quantum to ensure fairness
+3. How thread states change during execution in Java
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Advanced scheduling algorithms such as Priority Scheduling and Multilevel Queue
+2. Thread synchronization and handling concurrency issues like race conditions.
