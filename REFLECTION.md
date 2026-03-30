@@ -17,7 +17,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+[  The most challenging part of this assignment was understanding how all the components of the program work together, especially the interaction between threads, processes, and the scheduling queue. At first, it required careful thinking to follow the flow of execution and how each process gets CPU time in a Round Robin manner. Managing multiple concepts at once, such as time quantum, remaining time, and process states, also added complexity. In addition, implementing the priority feature in a way that integrates smoothly with the existing structure required attention to detail. I had to make sure that every change I made did not affect the overall behavior of the scheduler. This challenge helped me improve my ability to read and analyze larger code structures. Overall, it pushed me to think more logically about how systems operate step by step. ]
 
 ---
 
