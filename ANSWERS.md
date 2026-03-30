@@ -39,17 +39,17 @@ Example from my output:
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
+[ A thread goes through different states during its lifecycle, and in this simulation we can track the process P1 as it moves through these states based on the code execution in SchedulerSimulation.java. Each state represents a different phase of execution controlled by methods like Thread.start(), Thread.sleep(), and Thread.join(). ]
 
-1. **New**: [When is P1 in New state?]
+1. **New**: [ when the process object is created but the thread has not been started yet. At this stage, the thread exists in memory but is not scheduled for execution. In the code, this happens right after creating the Thread object for P1 and before calling start().]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [ when Thread.start() is called. At this point, the thread is ready and waiting to be selected by the CPU scheduler. In the simulation, this happens when P1 is added to the ready queue and becomes eligible for execution. ]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [ when the CPU scheduler selects it from the ready queue and executes its run() method. During this time, the process is actively executing instructions on the CPU. This happens during the time slices assigned to P1 in the Round-Robin scheduling ]
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+4. **Waiting**: [ when it is temporarily paused and cannot continue execution until a specific condition is met. This can happen when Thread.sleep() is called or when join() is used and the thread must wait for another thread to finish. In this state, the thread is not eligible for CPU scheduling until the waiting condition is resolved ]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [ when it finishes executing all its instructions and the run() method completes. At this point, the thread has finished execution and is no longer scheduled for CPU time. ]
 
 ---
 
