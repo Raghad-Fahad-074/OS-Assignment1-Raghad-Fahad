@@ -9,7 +9,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+[ From this assignment, I learned how multithreading works in Java by creating and running multiple threads using the Runnable interface. I understood that each process in the scheduler is executed as a separate thread, which simulates how the CPU handles multiple tasks. I also learned how threads can run concurrently, but still be controlled using methods like start() and join(). The use of join() helped me understand how to manage execution order and ensure one thread finishes before moving to the next. Another important concept I learned is how threads are connected to data, like linking each Thread to its corresponding Process using a Map. This helped me see how we can manage and track different threads during execution. Overall, the assignment gave me a clearer understanding of how multithreading is used to simulate real CPU scheduling. ]
 
 ---
 
