@@ -59,21 +59,31 @@ Example from my output:
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [ Web Server Handling Multiple Requests ]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[ In a web server, many users send requests at the same time (such as loading web pages or fetching data). Each request is handled as a separate thread. ]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[ Round-Robin scheduling gives each request a fixed time slice (time quantum) before moving to the next one. This ensures that all users get served without long delays.
+It works well because it provides:
 
-### Example 2: [Name of application/scenario]
+- Fairness: every request gets equal CPU time
+- Responsiveness: no request is ignored or delayed too long
+- Efficient multitasking: multiple requests are handled smoothly ]
+
+### Example 2: [ Operating System Task Scheduling (Multitasking Systems) ]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[ In operating systems, multiple programs run at the same time (such as a browser, music player, and other applications). Each program runs as a process or thread ]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[ Round-Robin distributes CPU time equally among all running programs, so no single program can dominate the CPU.
+It is suitable because it offers:
+
+- No starvation: every program gets a chance to execute
+- Good user experience: applications remain responsive
+- Predictability: the system behaves in a stable and consistent way ]
 
 ---
 
