@@ -158,10 +158,15 @@ Tracked last ready time and used system time difference for accurate calculation
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [ 8.5 hours]
 
 **Most challenging part**: 
+Implementing the waiting time calculation and making sure it updates correctly as processes move in and out of the ready queue
+
 
 **Most interesting learning**: 
+Understanding how Round Robin scheduling works in practice and how features like priority, context switching, and waiting time can be added to enhance the simulation
 
 **What I would do differently next time**: 
+Plan the features more clearly before starting implementation to make the development process smoother
+
