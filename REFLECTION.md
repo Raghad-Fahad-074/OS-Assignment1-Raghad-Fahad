@@ -25,7 +25,8 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+[ To overcome the challenges, I focused on breaking the problem into smaller parts and understanding each part separately before combining everything together. I carefully read through the code multiple times to fully understand how each class and method works. I also tested the program frequently after making small changes to ensure everything was working correctly. When I needed clarification, I reviewed course materials and examples related to multithreading and scheduling. Writing notes and tracing the execution step-by-step also helped me understand the behavior of the program more clearly. Additionally, I paid close attention to how data flows between objects like threads and processes. This structured approach made it easier to handle complex parts of the assignment confidently.
+]
 
 ---
 
