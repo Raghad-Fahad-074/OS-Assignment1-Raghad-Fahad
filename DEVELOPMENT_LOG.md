@@ -96,16 +96,26 @@ Carefully tracked variables and tested output after each change
 2 hours
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - [March 30, 2026, 3:00 AM ]
+
 **What I did**: 
+Implemented Context Switch counter
 
 **Details**: 
+- Added a counter to track the number of context switches
+- Incremented it each time a new process starts execution
+- Displayed the total number of context switches at the end of the simulation
+- Improved the output by printing the ready queue for better visualization
+
 
 **Challenges**: 
+Deciding the correct point in the program to count a context switch
 
 **Solution**: 
+Placed the counter update right before the process starts execution to ensure accurate counting
 
 **Time spent**: 
+1 hour
 
 ---
 
