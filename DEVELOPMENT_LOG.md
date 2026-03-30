@@ -119,16 +119,27 @@ Placed the counter update right before the process starts execution to ensure ac
 
 ---
 
-### Entry 5 - [Date and Time]
+### Entry 5 - [March 30, 2026, 4:45 AM]
+
 **What I did**: 
+Implemented Waiting Time tracking and tested the program
 
 **Details**: 
+- Added fields to track waiting time for each process
+- Calculated waiting time before each execution
+- Stored completed processes in a list
+- Displayed a summary table with waiting time
+- Ran the simulation multiple times to verify results
 
 **Challenges**: 
+Calculating waiting time correctly when processes re-enter the queue
 
 **Solution**: 
+Tracked last ready time and used system time difference for accurate calculation
 
 **Time spent**: 
+3 hour
+
 
 ---
 
