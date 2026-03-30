@@ -75,17 +75,25 @@ Reviewed the relationship between Thread and Runnable in Java and re-read the co
 
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [March 29, 2026, 11:00 PM]
+
 **What I did**: 
+Implemented Priority feature
 
 **Details**: 
-
+- Added priority field to Process class
+- Modified constructor to include priority
+- Generated random priority (1–5)
+- Displayed priority when adding process to queue
+  
 **Challenges**: 
+Making sure priority is passed correctly between constructor and methods
 
 **Solution**: 
+Carefully tracked variables and tested output after each change
 
 **Time spent**: 
-
+2 hours
 ---
 
 ### Entry 4 - [Date and Time]
